@@ -5,3 +5,13 @@
 // 7 -> да
 // 1 -> нет
 
+Console.WriteLine("Введите цифру соответствующую дню недели: ");
+int num = Convert.ToInt32(Console.ReadLine());
+if (num == 6 || num == 7)
+{
+    Console.WriteLine(num+ " -> О, да!");
+}
+else
+{
+    Console.WriteLine(num+ " -> Эх, нет...");
+}
